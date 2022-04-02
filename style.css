@@ -1,0 +1,139 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+input,label {
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+input:valid {
+    border-color: green;
+    outline: none;
+   
+}
+
+input:focus {
+    outline: none;
+    border-color: lightskyblue;
+    box-shadow: 3px 3px  rgb(240, 238, 238);
+}
+
+label {
+    font-size: x-small;
+    padding: 2px;
+}
+
+a {
+    color: white;
+}
+
+.left {
+    background-image: url("./venice.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+   width: 700px;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+
+
+.photocred {
+    align-self: center;
+    color:white;
+    margin-top: auto;
+}
+
+.textbox {
+    font-family: norse-bold,sans-serif;
+    position: relative;
+    margin-top: 138px;
+    font-size: 100px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 10px;
+    width: 680px;
+    text-align: center;
+    
+}
+
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-shadow: 10px 10px 16px whitesmoke;
+}
+
+.top {
+    padding: 40px;
+    font-size: 30px;
+    background-color: rgb(245, 250, 255);
+}
+
+.formleft {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 70px;
+}
+
+.formright {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.error:invalid {
+    outline: none;
+    border-color: rgb(223, 0, 0);
+}
+
+.login {
+    color: #596D48;
+}
+
+.submitBtn {
+    position: absolute;
+    margin-top: 70px;
+}
+
+button {
+    background-color: #596D48;
+    color:white;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.bottom {
+    background-color: rgb(245, 250, 255);
+    padding-top: 80px;
+    padding-left: 50px;
+    height: 193px
+   
+}

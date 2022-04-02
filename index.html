@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Lato:wght@300&family=Roboto:ital,wght@1,500&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left">
+        <div class="textbox">VENEZIA</div>
+        <div class="photocred">Photo by <a href="http://www.instagram.com/damianobaschiera/">Damiano Baschiera</a> on <a href="https://unsplash.com/photos/KtlBp_YttlY">Unsplash</a></div>
+    </div>
+    <div class="right">
+        <div class="top">
+             Travel anywhere, anytime. You deserve it. Discover the world and set out on the journey of a lifetime.
+            <br>
+            Sign up <em>now</em> to plan your dream vacation.
+            <br>
+            <br>
+            You <em>know</em>  you want to.
+        </div>
+        <div class="mid">
+            <h2>Let's do this!</h2>
+            
+            <form action="example.com/path" method="post">
+                    <div class="formleft">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email" name="email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="user_password">PASSWORD</label>
+                             <input class="error" type="password" id="user_password" name="password" required>
+                        </div>
+                    </div>
+                        
+                    <div class="formright">
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="user_phoneNum">PHONE NUMBER</label>
+                            <input type="tel" id="user_phoneNum" name="user_phoneNum"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                            >
+                        </div>
+                        <br>
+                        <div>
+                            <label for="user_password">CONFIRM PASSWORD</label>
+                            <input class="error" type="password" id="user_password" name="password" required>
+                        </div>
+                    </div>
+                    <div>
+                    <button class="submitBtn" type="submit">Create Account</button>
+                    </div>
+            </form>
+            
+        </div>
+        <div class="bottom">
+            Already have an account? <span class="login">Log In</span>
+        </div>
+    </div>
+</body>
+</html>
